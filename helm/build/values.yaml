@@ -1,0 +1,21 @@
+app:
+  name: my-quarkus-1
+  namespace: my-quarkus-1-dev
+  cluster: .apps.cluster-2tgsr.dynamic.redhatworkshops.io
+
+git:
+  branch: main
+  repo: https://github.com/ghrhdh1/my-quarkus-1.git
+  org: ghrhdh1
+  name: my-quarkus-1
+  host: github.com
+  token: ''
+  webhookSecret: ''
+
+
+image:
+  registry: Quay
+  organization: rhdh1
+  host: quay.io
+  name: my-quarkus-1
+  tag: latest
